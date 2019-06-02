@@ -1150,4 +1150,9 @@
       <Filter>Sys\RC</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="sys\win32\rc\windows.manifest">
+      <Filter>Sys\RC</Filter>
+    </Manifest>
+  </ItemGroup>
 </Project>

@@ -34,6 +34,10 @@ If you have questions concerning this license or the applicable additional terms
 
 #include "../../neo/sys/sys_public.h"
 
+// SLART: For p_user.cpp, r_bsp.cpp, r_segs.cpp and r_main.cpp. Look for // ALANHACK UNSIGNED
+#pragma warning( disable: 4146 )	// warning C4146:  unary minus operator applied to unsigned type, result still unsigned
+
+
 //
 // Global parameters/defines.
 //
