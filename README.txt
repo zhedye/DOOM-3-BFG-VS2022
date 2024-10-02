@@ -21,15 +21,13 @@ Note that Doom 3 BFG Edition is available from the Steam store at
 http://store.steampowered.com/app/208200/
 
 
-Compiling on win32:
+Compiling for win32:
 -------------------
 
-A project file for Microsoft Visual Studio 2010 is provided in neo\doom3.sln
-We expect the solution file is compatible with the Express releases
+A project file for Microsoft Visual Studio 2022 is provided in neo\doom3.sln
 
-You will need the Microsoft DirectX SDK installed as well.
-If it does not reside in "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)"
-you will need to update the project files accordingly.
+
+You will need the Microsoft ATL and MFC. In Microsoft Visual Studio 2022, go to Tool > Get Tools and Features > Individual components. Then search for MFC and ATL in the search bar.
 
 
 Steam:
