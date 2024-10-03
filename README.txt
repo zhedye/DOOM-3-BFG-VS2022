@@ -26,9 +26,12 @@ Compiling for win32:
 
 A project file for Microsoft Visual Studio 2022 is provided in neo\doom3.sln
 
+You will need the Microsoft ATL and MFC libraries. To download them in Microsoft Visual Studio 2022, go to Tool > Get Tools and Features... > Individual components, and then search for MFC and ATL in the search bar. You need C++ ATL for latest v143 build tools (x86 & x64) and C++ MFC for latest v143 build tools (x86 & x64). 
 
-You will need the Microsoft ATL and MFC. In Microsoft Visual Studio 2022, go to Tool > Get Tools and Features > Individual components. Then search for MFC and ATL in the search bar.
+Debugging:
+----------
 
+Keep in mind that is a 32-bit application. Debuggers for x64 such as RadDebugger or RemedyBG will not work.
 
 Steam:
 ------
